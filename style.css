@@ -54,6 +54,11 @@ body {
 .header-image {
     width: 50%;
     padding: 33px 89px 0 0;
+
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.header-image:hover {
+    transform: rotate(360deg);
 }
 .header-image img {
     width: 100%;
