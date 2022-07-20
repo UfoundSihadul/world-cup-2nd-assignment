@@ -51,6 +51,24 @@ body {
     margin-top: 20px;
     color: white;
 }
+.view-all {
+ 
+    /* position: absolute; */
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    display: none;
+    margin-left: 300px;
+    margin-bottom: 100px ;
+}
+
+
 .header-image {
     width: 50%;
     padding: 33px 89px 0 0;
@@ -95,9 +113,7 @@ body {
     padding: 16px 20px;
     border-radius: 5px;
 }
-.blog-button {
 
-}
 .sidebar{
    grid-row: 1 / 2;
 }
@@ -168,5 +184,12 @@ body {
     font-size: xx-large;
     display: flex;
     justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .view-all {
+        display: grid;
+        align-items: center;
+    }
 }
 /* ---footer--- */

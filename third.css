@@ -66,11 +66,7 @@ body {
 /* ---header section--- */
 
 /* ---main section--- */
-.image-part {
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
-}
+
 .button {
     display: inline-block;
     background-color: #DD0000;
