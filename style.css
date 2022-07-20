@@ -81,6 +81,10 @@ body {
     margin: 20px;
     margin-top: 35px;
 }
+.transfer {
+    border: 1px solid black;
+    width: 70px;
+}
 .button-main {
     background-color: white;
     padding: 16px 20px;
