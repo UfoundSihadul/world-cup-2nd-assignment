@@ -7,7 +7,7 @@
 * {
     padding: 0;
     margin: 0;
-    text-decoration: 0;
+    text-decoration: none;
     list-style: 0;
     box-sizing: 0;
 }
@@ -144,6 +144,7 @@ body {
     color: white;
     text-align: center;  
     padding: 0 400px;
+    height: 500px;
 }
 .foot h4 {
     font-size: 50px;
@@ -158,7 +159,9 @@ body {
     display: flex;
     justify-content: space-evenly;
 }
-#social-media {
+.social-media {
     font-size: xx-large;
+    display: flex;
+    justify-content: space-evenly;
 }
 /* ---footer--- */
