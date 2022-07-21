@@ -107,6 +107,7 @@ body {
 .transfer {
     border: 1px solid black;
     width: 70px;
+    padding: 3px 5px;
 }
 .button-main {
     background-color: white;
